@@ -3,7 +3,7 @@ from add_three_numbers import add_three
 
 def test_add_three_negative():
     result = add_three(-3, -2, -1)
-    assert result == -6
+    assert result == 0
 
 
 def test_add_three_1():
